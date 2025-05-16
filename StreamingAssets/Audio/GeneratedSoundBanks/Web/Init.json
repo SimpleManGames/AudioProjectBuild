@@ -1,0 +1,309 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Web",
+  "BasePlatform": "Web",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "1355168291",
+    "Type": "User",
+    "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
+    "Language": "SFX",
+    "Hash": "{986037EE-1F3D-FA79-3E1E-C09EB07B3C83}",
+    "ObjectPath": "Init",
+    "ShortName": "Init",
+    "Path": "Init.bnk",
+    "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "48620415",
+       "Name": "Have_U_Ever_Been_Outside",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Exteriors\\Have_U_Ever_Been_Outside",
+       "GUID": "{FE29AE8D-FD86-4652-A95D-68D32F5760EC}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      },
+      {
+       "Id": "415841907",
+       "Name": "Space_Garage",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Huge Spaces\\Space_Garage",
+       "GUID": "{1AF92D84-49DD-4BBC-8F29-6C6D10082B6E}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      },
+      {
+       "Id": "886364231",
+       "Name": "Doctor_Office",
+       "ObjectPath": "\\Effects\\Default Work Unit\\Reverbs\\Doctor_Office",
+       "GUID": "{B6B5B068-C25E-4533-A57D-DEAD1502D2CB}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      },
+      {
+       "Id": "992902880",
+       "Name": "Small_Tiled_Room1",
+       "ObjectPath": "\\Effects\\Factory Effects\\Matrix Reverb\\Small_Tiled_Room1",
+       "GUID": "{41EEE722-3009-4B3F-8820-F414623783E3}",
+       "LibName": "Wwise Matrix Reverb",
+       "LibId": "7536643"
+      },
+      {
+       "Id": "2891462749",
+       "Name": "Room_Medium_High_Absorbtion",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Rooms\\Room_Medium_High_Absorbtion",
+       "GUID": "{E22DBBB6-7656-4B93-A28D-C003FD416889}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      },
+      {
+       "Id": "2995775460",
+       "Name": "Room_Small",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Rooms\\Room_Small",
+       "GUID": "{577F1466-A63B-47F7-98BD-C56E433F8B5D}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      },
+      {
+       "Id": "3059984139",
+       "Name": "Tunnel",
+       "ObjectPath": "\\Effects\\Default Work Unit\\Reverbs\\Tunnel",
+       "GUID": "{421898E7-F378-4168-96E9-453DA4503C0B}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      }
+     ],
+     "AudioDevices": [
+      {
+       "Id": "2317455096",
+       "Name": "No_Output",
+       "ObjectPath": "\\Audio Devices\\Default Work Unit\\No_Output",
+       "GUID": "{F9E16FB0-D86D-4D80-945A-6E565FA17301}",
+       "LibName": "No Output",
+       "LibId": "11862023"
+      },
+      {
+       "Id": "3859886410",
+       "Name": "System",
+       "ObjectPath": "\\Audio Devices\\Default Work Unit\\System",
+       "GUID": "{AFBE673E-5824-40C5-B1F9-36130A8A643D}",
+       "LibName": "System",
+       "LibId": "11403271"
+      }
+     ]
+    },
+    "Busses": [
+     {
+      "Id": "983310469",
+      "Name": "AUX",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\World\\AUX",
+      "GUID": "{FD76D495-E47C-4CA4-82FE-97A763A03301}"
+     },
+     {
+      "Id": "2609808943",
+      "Name": "World",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\World",
+      "GUID": "{4EF2F071-BC21-4E9F-9291-E91C6CE352BD}"
+     },
+     {
+      "Id": "3803692087",
+      "Name": "Master Audio Bus",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus",
+      "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
+     }
+    ],
+    "AuxBusses": [
+     {
+      "Id": "318262586",
+      "Name": "Region_SRoom",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\World\\AUX\\Region_SRoom",
+      "GUID": "{3F0F8208-35EF-471E-A008-4056BAEE3EB2}"
+     },
+     {
+      "Id": "1322167076",
+      "Name": "Region_Club",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\World\\AUX\\Region_Club",
+      "GUID": "{AC285375-EE9D-49EA-A351-E7F37A1C23E3}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "2891462749"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "1505882333",
+      "Name": "Region_City",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\World\\AUX\\Region_City",
+      "GUID": "{359C7F40-7D9C-4F30-8675-BCBDED8C4554}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "48620415"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "1869301910",
+      "Name": "Region_Tunnel",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\World\\AUX\\Region_Tunnel",
+      "GUID": "{4C02D622-50F8-46FF-AF29-C2A3379AAC53}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "3059984139"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "1889362552",
+      "Name": "Region_DoctorsOffice",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\World\\AUX\\Region_DoctorsOffice",
+      "GUID": "{FCABCD88-3203-4089-8A7F-F3DB105555BF}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "886364231"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "3941196031",
+      "Name": "Region_Garage",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\World\\AUX\\Region_Garage",
+      "GUID": "{FBB75104-20C0-494B-9E93-51C06A6E1352}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "415841907"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "4142987362",
+      "Name": "Region_Bank",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\World\\AUX\\Region_Bank",
+      "GUID": "{20DA2A19-84A5-4FAA-AF97-9C2D9E70C536}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "2995775460"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "4166818582",
+      "Name": "Region_Alcove",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\World\\AUX\\Region_Alcove",
+      "GUID": "{19E9C9B6-6F37-4F0E-96D4-EFD621C5B1D2}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "992902880"
+        }
+       ]
+      }
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "739966622",
+      "Name": "Footspteps",
+      "ObjectPath": "\\States\\Default Work Unit\\Footspteps",
+      "GUID": "{B5E4AE7C-0B6E-4F73-B56F-BB5894B26332}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\Footspteps\\None",
+        "GUID": "{07A1209D-9652-4583-B3DE-2C0B3EE48268}"
+       },
+       {
+        "Id": "2473969246",
+        "Name": "Metal",
+        "ObjectPath": "\\States\\Default Work Unit\\Footspteps\\Metal",
+        "GUID": "{2414D660-739E-45BC-B15A-5251C1E8DD53}"
+       },
+       {
+        "Id": "4169408098",
+        "Name": "Asphalt",
+        "ObjectPath": "\\States\\Default Work Unit\\Footspteps\\Asphalt",
+        "GUID": "{7DA81847-672F-4D6F-8A8D-D510E2ED99CD}"
+       }
+      ]
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "3865314626",
+      "Name": "Material",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Material",
+      "GUID": "{3FEF7EE5-76A4-4FF0-97C3-83733226DBEA}",
+      "Switches": [
+       {
+        "Id": "2473969246",
+        "Name": "Metal",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Material\\Metal",
+        "GUID": "{B58A3F9A-B54A-4135-90AC-B89E0511D9F1}"
+       },
+       {
+        "Id": "2637588553",
+        "Name": "Tile",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Material\\Tile",
+        "GUID": "{63E5FF1F-6DAA-4310-976B-9C45BA0ACF89}"
+       },
+       {
+        "Id": "4169408098",
+        "Name": "Asphalt",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Material\\Asphalt",
+        "GUID": "{6320629C-F9BE-4B75-BD00-CD2766E59357}"
+       }
+      ]
+     }
+    ],
+    "AcousticTextures": [
+     {
+      "Id": "4072605221",
+      "Name": "Club",
+      "ObjectPath": "\\Virtual Acoustics\\Default Work Unit\\Club",
+      "GUID": "{752A7536-F3A8-41A4-A715-594C472CE756}",
+      "Properties": [
+       {
+        "Name": "AbsorptionLow",
+        "Type": "Real32",
+        "Value": "0"
+       },
+       {
+        "Name": "AbsorptionMidLow",
+        "Type": "Real32",
+        "Value": "0"
+       },
+       {
+        "Name": "AbsorptionMidHigh",
+        "Type": "Real32",
+        "Value": "0"
+       },
+       {
+        "Name": "AbsorptionHigh",
+        "Type": "Real32",
+        "Value": "0"
+       },
+       {
+        "Name": "Scattering",
+        "Type": "Real32",
+        "Value": "0"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{65DE3553-9C58-D736-3527-87EED67A4618}"
+ }
+}
